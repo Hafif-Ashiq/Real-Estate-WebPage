@@ -7,7 +7,7 @@ import rating from "../assets/rating.svg";
 
 const About = () => {
   return (
-    <section className="flex flex-1 flex-row justify-between items-center">
+    <section className="flex flex-1 flex-row justify-between gap-[20px] items-center">
       <div className="relative">
         <img src={about_image} alt="" className="w-[100%] h-[100%] z-0" />
 
@@ -37,7 +37,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className="">
         <MainContent
           text_tag={"ABOUT US"}
           text_h={"How much is your property worth now?"}

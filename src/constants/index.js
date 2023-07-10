@@ -10,8 +10,8 @@ import Sheild from "../assets/Shield.svg"
 import Star2 from "../assets/Star2.svg"
 import Star from "../assets/Star.svg"
 import profile1 from "../assets/profile1.png"
-import profile2 from "../assets/profile2.jpg"
-import profile3 from "../assets/profile3.jpg"
+import profile2 from "../assets/profile2.png"
+import profile3 from "../assets/profile3.png"
 
 
 const navLinks = ["Home", "Property", "About", "Service", "Contact"]
@@ -84,21 +84,21 @@ const reviews = [
         prof: "UX Designer",
         bold: "It proved to be exactly the kind of home we wanted.",
         para: "We wish to express our thanks for your hard work in finding us a temporary home, which proved to be exactly what we wanted.",
-        img: {profile1}
+        img: profile1
     },
     {
         name: "Alfredo Donin",
         prof: "UI Designer",
         bold: "Nobody knows Portland and the peninsula better than David.",
         para: "My wife and I had a dream of downsizing from our house in Cape Elizabeth into a small condo closer to where we work and play in Portland. ",
-        img: {profile2}
+        img: profile2
     },
     {
         name: "Makenna Korsgaard",
         prof: "UX Researcher",
         bold: "He keeps his client’s best interests in sharp focus",
         para: "After working with David to sell my home in 2013, I was convinced that he’s the only realtor I’ll ever need. Since then, I’ve bought two properties and sold one.",
-        img: {profile3}
+        img: profile3
     },
 
 ]

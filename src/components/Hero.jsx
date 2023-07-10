@@ -19,7 +19,7 @@ const Hero = () => {
           <BuySellButton text="Buy" style="text-text_primary bg-primary  "/>
           <BuySellButton text="Sell" style="text-text_secondary"/>
         </div>
-        <div className='flex flex-row flex-1 shadow-md text-opacity-16 text-gray-500 justify-start items-center bg-primary w-[570px] p-[22px] z-10 '>
+        <div className='flex flex-row flex-1 shadow-md text-opacity-16 text-gray-500 justify-start items-center bg-primary w-[570px] p-[22px] z-10 relative'>
           {dropDowns.map((drop) =>(
             <div key={drop.title} className="flex flex-col pr-[26px]">
               <h3 className='text-main_title_color mb-[5px] ml-[2px]'>{drop.title}</h3>
